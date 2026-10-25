@@ -1,0 +1,89 @@
+ECOR 1041 Lab 3 Solutions
+
+Using a text editor, type your solutions to the exercises in the lab
+instructions (file ECOR1041_Lab3.pdf) in the indicated areas.
+
+===========
+Exercise 1:
+
+(a) Write the Python statement that caused the variable degrees_f to
+appear in the memory model
+
+degrees_f = 70
+
+(b) What is the name of the frame containing degrees_f?
+
+Global frame
+
+(c) What does the arrow that points from degrees_f to 70 represent?
+
+It represents that the value assigned to degrees_f is 70
+
+(d) Write the Python statement that caused the variable degrees_k to
+appear in the memory model.
+
+degrees_k = ((degrees_f - 32) * (5 / 9)) + 273.15
+
+(e) The arrow in degrees_k points to an object. What is the type and
+value of this object?
+
+The value of the object is 294.2611 and its type is a float
+
+===========
+Exercise 2:
+
+Copy the four assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+mpg = 32
+LITERS_PER_GALLON = 4.54609
+KMS_PER_MILES = 1.60934
+fuel_consumtion = (LITERS_PER_GALLON * 100) / (mpg * KMS_PER_MILES)
+--------------------------------
+
+(a) What is the name of the first variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+The first variable that appears is mpg. It is an integer and its value is 32.
+
+(b) What is the name of the second variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+The second variable is LITERS_PER_GALLON. It is a float with a value of 4.5461.
+
+(c) What is the name of the third variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+The third variable to appear is KMS_PER_MILE. Its type is a float with a value of 1.6093.
+
+(d) What is the name of the fourth variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+The fourth variable to appear is fuel_consumption. Its type is a float and its value is 8.8276.
+
+===========
+Exercise 3:
+
+Copy the five assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+principal = 1500
+rate = 0.043
+n = 4
+time = 6
+amount = 1500 * pow((1 + (rate / n)), (n * time))
+--------------------------------.
+
+===========
+Exercise 4:
+
+Write a short step-by-step explanation of how Python evaluates the
+statement:
+
+x *= x + x
+
+when x refers to 5.
+
+Python first evaluates what is on the right of the operator. This ends up being 
+10, as 5 + 5 = 10. Then, Python evaluates the *= operator, which can be 
+rewritten as x = x * 10. This evaluates to x = 50.

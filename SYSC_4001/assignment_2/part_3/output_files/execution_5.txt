@@ -1,0 +1,63 @@
+0, 433, CPU Burst
+433, 1, switch to kernel mode
+434, 10, context saved
+444, 1, find vector 20 in memory position 0x0028
+445, 1, load address 0X07B7 into the PC
+446, 0, SYSCALL ISR (ADD STEPS HERE)
+446, 1, IRET
+447, 1, switch to kernel mode
+448, 10, context saved
+458, 1, find vector 20 in memory position 0x0028
+459, 1, load address 0X07B7 into the PC
+460, 0, ENDIO ISR(ADD STEPS HERE)
+460, 1, IRET
+461, 65, CPU Burst
+526, 1, switch to kernel mode
+527, 10, context saved
+537, 1, find vector 2 in memory position 0x0004
+538, 1, load address 0X0695 into the PC
+539, 150, SYSCALL ISR (ADD STEPS HERE)
+689, 1, IRET
+690, 1, switch to kernel mode
+691, 10, context saved
+701, 1, find vector 2 in memory position 0x0004
+702, 1, load address 0X0695 into the PC
+703, 150, ENDIO ISR(ADD STEPS HERE)
+853, 1, IRET
+854, 1, switch to kernel mode
+855, 10, context saved
+865, 1, find vector 3 in memory position 0x0006
+866, 1, load address 0X042B into the PC
+867, 69, Program is 10 Mb large
+936, 150, loading program into memory
+1086, 3, marking partition as occupied
+1089, 6, updating PCB
+1095, 0, scheduler called
+1095, 1, IRET
+1096, 150, CPU Burst
+1246, 1, switch to kernel mode
+1247, 10, context saved
+1257, 1, find vector 17 in memory position 0x0022
+1258, 1, load address 0X05B3 into the PC
+1259, 235, SYSCALL ISR (ADD STEPS HERE)
+1494, 1, IRET
+1495, 1, switch to kernel mode
+1496, 10, context saved
+1506, 1, find vector 17 in memory position 0x0022
+1507, 1, load address 0X05B3 into the PC
+1508, 235, ENDIO ISR(ADD STEPS HERE)
+1743, 1, IRET
+1744, 10, CPU Burst
+1754, 1, switch to kernel mode
+1755, 10, context saved
+1765, 1, find vector 14 in memory position 0x001C
+1766, 1, load address 0X0165 into the PC
+1767, 456, SYSCALL ISR (ADD STEPS HERE)
+2223, 1, IRET
+2224, 1, switch to kernel mode
+2225, 10, context saved
+2235, 1, find vector 14 in memory position 0x001C
+2236, 1, load address 0X0165 into the PC
+2237, 456, ENDIO ISR(ADD STEPS HERE)
+2693, 1, IRET
+2694, 250, CPU Burst

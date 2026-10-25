@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"math.h": "c",
+			"stdlib.h": "c",
+			"stdio.h": "c",
+			"a2_functions.h": "c",
+			"a2_nodes.h": "c"
+		}
+	}
+}
